@@ -3,3 +3,4 @@ select count(*) ( select * from table_name) as table_name2 // Dem so dong trong 
 SELECT SUM(LuongCoBan) AS luong FROM dbo.NHANVIEN // tinhs tong so luong dat vao 1 truong trong 1 bang
 SELECT MaNhanVien,SUM(LuongCoBan) AS luong FROM dbo.NHANVIEN GROUP BY MaNhanVien// khi them 1 truong kha muon tinh luong 
     //tung nguoi thi phai dung group by và tất cả các trường sau select phải co đủ sau group by
+SELECT Ho,Ten,DiaChi,YEAR(NgayLamViec) FROM dbo.NHANVIEN // Lấy 1 năm trong date dung year(date), tương thự cho month
