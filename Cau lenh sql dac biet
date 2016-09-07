@@ -1,2 +1,3 @@
 
 select count(*) ( select * from table_name) as table_name2 // Dem so dong trong bang moi tao thanh
+SELECT SUM(LuongCoBan) AS luong FROM dbo.NHANVIEN // tinhs tong so luong dat vao 1 truong trong 1 bang
