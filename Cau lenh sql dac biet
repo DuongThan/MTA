@@ -1,1 +1,2 @@
 
+select count(*) ( select * from table_name) as table_name2 // Dem so dong trong bang moi tao thanh
